@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#000000">
+  <title>Cards MSe</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <main id="stage" aria-label="Painel de recepção">
+    <div id="loader">Carregando conteúdos...</div>
+    <div id="empty" class="hidden">
+      <div class="empty-title">Painel de Recepção</div>
+      <div class="empty-text">Adicione imagens ou vídeos na pasta <strong>midia</strong>.</div>
+    </div>
+
+    <div id="mediaContainer" class="hidden">
+      <img id="image" alt="Banner" />
+      <video id="video" playsinline muted preload="auto"></video>
+    </div>
+
+    <div id="progress" class="hidden" aria-hidden="true">
+      <span></span>
+    </div>
+  </main>
+
+  <script src="js/carousel.js"></script>
+</body>
+</html>
