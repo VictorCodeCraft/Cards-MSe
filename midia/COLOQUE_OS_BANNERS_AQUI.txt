@@ -1,0 +1,1 @@
+Coloque aqui as imagens e vídeos do painel. Depois cadastre os nomes em js/carousel.js.
